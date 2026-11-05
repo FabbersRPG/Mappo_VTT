@@ -1,0 +1,150 @@
+﻿# ============================================
+# Unity - pastas geradas automaticamente
+# ============================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Builds do jogo (a pasta V.1 e os zips)
+/V.1/
+/V_1/
+*.zip
+*.7z
+*.rar
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# ============================================
+# IDEs / editores
+# ============================================
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.consulo/
+*.DotSettings.user
+.gradle/
+ExportedObj/
+sysinfo.txt
+
+# Pacotes de crash / profiling
+*.stackdump
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Cache de assets
+/Assets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+InitTestScene*.unity*
+
+# ============================================
+# Modelos 3D (pesados) - NAO sobem pro Git
+# ============================================
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.blend
+*.blend1
+*.dae
+*.3ds
+*.max
+*.ma
+*.mb
+*.c4d
+*.stl
+*.ply
+*.usd
+*.usdz
+*.abc
+
+# Meta dos modelos (o arquivo .meta fica junto do modelo ignorado)
+*.glb.meta
+*.gltf.meta
+*.fbx.meta
+*.obj.meta
+*.blend.meta
+*.dae.meta
+*.3ds.meta
+*.max.meta
+*.ma.meta
+*.mb.meta
+*.c4d.meta
+*.stl.meta
+*.ply.meta
+*.usd.meta
+*.usdz.meta
+*.abc.meta
+
+# ============================================
+# Imagens / texturas (pesadas)
+# ============================================
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.psd
+*.tif
+*.tiff
+*.exr
+*.hdr
+*.bmp
+*.gif
+
+*.png.meta
+*.jpg.meta
+*.jpeg.meta
+*.tga.meta
+*.psd.meta
+*.tif.meta
+*.tiff.meta
+*.exr.meta
+*.hdr.meta
+*.bmp.meta
+*.gif.meta
+
+# ============================================
+# Audio / video pesados (opcional)
+# ============================================
+*.wav
+*.mp3
+*.ogg
+*.mp4
+*.mov
+*.avi
+
+# ============================================
+# Sistema operacional
+# ============================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Saves locais do VTT (cada um tem o seu)
+# ============================================
+vtt_config_save.json
